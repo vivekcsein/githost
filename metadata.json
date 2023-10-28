@@ -1,0 +1,112 @@
+{
+  "data": {
+    "HeaderData": {
+      "header_Logo": {
+        "src": "",
+        "alt": "header_logo",
+        "href": "./"
+      },
+      "navbar": {
+        "nav_Links": [
+          { "id": 1, "href": "./", "label": "Home", "dropdown": false },
+          {
+            "id": 2,
+            "href": "#products",
+            "label": "Products",
+            "dropdown": true,
+            "details": "productsData"
+          },
+          {
+            "id": 3,
+            "href": "./info/AboutUS",
+            "label": "About Us",
+            "dropdown": false
+          },
+
+          {
+            "id": 4,
+            "href": "./info/ContactUS",
+            "label": "Contact Us",
+            "dropdown": false
+          }
+        ]
+      }
+    },
+    "FooterData": {
+      "footer_logo": "",
+      "copyright_message": "Copyright © 2024 FRENZZ Pvt. Ltd All Right are Reserved",
+
+      "footer_Links": [
+        {
+          "id": 1,
+          "title": "Top Products",
+          "links": "productsData"
+        },
+        {
+          "id": 2,
+          "title": "About US",
+          "links": [
+            { "id": 1, "label": "About us", "href": "./info/AboutUS" },
+            { "id": 2, "label": "FAQs", "href": "./info/FAQ" },
+            { "id": 3, "label": "How It Works", "href": "./info/HowItWorks" },
+            {
+              "id": 4,
+              "label": "Privacy Policy",
+              "href": "./info/PrivacyPolicy"
+            },
+            {
+              "id": 5,
+              "label": "Payment Policy",
+              "href": "./info/PaymentPolicy"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Get in touch",
+          "links": [
+            {
+              "id": 1,
+              "label": "customer@frnz.com",
+              "href": "mailto:customer@frnz.com"
+            },
+            {
+              "id": 2,
+              "label": "Subscribe Now",
+              "href": "./"
+            }
+          ]
+        }
+      ]
+    },
+    "productsData": [
+      {
+        "id": 1,
+        "label": "Web Development",
+        "href": "./products/WebDevelopment"
+      },
+      {
+        "id": 2,
+        "label": "Augmented Reality",
+        "href": "./products/AugmentedReality"
+      },
+      { "id": 3, "label": "Gaming", "href": "./products/Gaming" }
+    ],
+
+    "gameData": [
+      { "id": 1, "label": "Valorant", "href": "./products/Gaming/Valorant" },
+      {
+        "id": 2,
+        "label": "Counter Strike",
+        "href": "./products/CounterStrike"
+      },
+      { "id": 3, "label": "BGMI", "href": "./products/Gaming/BGMI" },
+      {
+        "id": 4,
+        "label": "Farlight 84",
+        "href": "./products/Gaming/Farlight84"
+      },
+      { "id": 5, "label": "GTA 5", "href": "./products/Gaming/GTA" }
+    ]
+  }
+}
