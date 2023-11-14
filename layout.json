@@ -1,8 +1,8 @@
 {
-  "data": {
+  "layoutdata": {
     "HeaderData": {
       "header_Logo": {
-        "src": "",
+        "src": "FRNZ_logo_online.png",
         "alt": "header_logo",
         "href": "./"
       },
