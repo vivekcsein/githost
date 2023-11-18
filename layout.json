@@ -2,9 +2,9 @@
   "layoutdata": {
     "HeaderData": {
       "header_Logo": {
-        "src": "FRNZ_logo_online.png",
+        "src": "logo.png",
         "alt": "header_logo",
-        "href": "./"
+        "href": "/"
       },
       "navbar": {
         "nav_Links": [
@@ -18,15 +18,15 @@
           },
           {
             "id": 3,
-            "href": "./info/AboutUS",
-            "label": "About Us",
+            "href": "/AboutUS",
+            "label": "AboutUS",
             "dropdown": false
           },
 
           {
             "id": 4,
-            "href": "./info/ContactUS",
-            "label": "Contact Us",
+            "href": "/ContactUS",
+            "label": "ContactUS",
             "dropdown": false
           }
         ]
@@ -46,18 +46,18 @@
           "id": 2,
           "title": "About US",
           "links": [
-            { "id": 1, "label": "About us", "href": "./info/AboutUS" },
-            { "id": 2, "label": "FAQs", "href": "./info/FAQ" },
-            { "id": 3, "label": "How It Works", "href": "./info/HowItWorks" },
+            { "id": 1, "label": "About us", "href": "/AboutUS" },
+            { "id": 2, "label": "FAQs", "href": "/FAQs" },
+            { "id": 3, "label": "How It Works", "href": "/HowItWorks" },
             {
               "id": 4,
               "label": "Privacy Policy",
-              "href": "./info/PrivacyPolicy"
+              "href": "/PrivacyPolicy"
             },
             {
               "id": 5,
               "label": "Payment Policy",
-              "href": "./info/PaymentPolicy"
+              "href": "/PaymentPolicy"
             }
           ]
         },
@@ -73,7 +73,7 @@
             {
               "id": 2,
               "label": "Subscribe Now",
-              "href": "./"
+              "href": "/"
             }
           ]
         }
@@ -83,30 +83,30 @@
       {
         "id": 1,
         "label": "Web Development",
-        "href": "./products/WebDevelopment"
+        "href": "/WebDevelopment"
       },
       {
         "id": 2,
         "label": "Augmented Reality",
-        "href": "./products/AugmentedReality"
+        "href": "/AugmentedReality"
       },
-      { "id": 3, "label": "Gaming", "href": "./products/Gaming" }
+      { "id": 3, "label": "Gaming", "href": "/Gaming" }
     ],
 
     "gameData": [
-      { "id": 1, "label": "Valorant", "href": "./products/Gaming/Valorant" },
+      { "id": 1, "label": "Valorant", "href": "/Gaming/Valorant" },
       {
         "id": 2,
         "label": "Counter Strike",
-        "href": "./products/CounterStrike"
+        "href": "/Gaming/CounterStrike"
       },
-      { "id": 3, "label": "BGMI", "href": "./products/Gaming/BGMI" },
+      { "id": 3, "label": "BGMI", "href": "/Gaming/BGMI" },
       {
         "id": 4,
         "label": "Farlight 84",
-        "href": "./products/Gaming/Farlight84"
+        "href": "/Gaming/Farlight84"
       },
-      { "id": 5, "label": "GTA 5", "href": "./products/Gaming/GTA" }
+      { "id": 5, "label": "GTA 5", "href": "/Gaming/GTA" }
     ]
   }
 }
