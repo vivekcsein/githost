@@ -24,11 +24,11 @@
           "name": "Retro Run",
           "description": "An Ar game on snapchat which i created & make the power of gaming",
           "image": "https://raw.githubusercontent.com/vivekcsein/githost/main/images/projectsImages/alivenow/retro_run.png",
-          "link": "",
+          "link": "https://www.snapchat.com/lens/80f946497b0741d4af49647eed220931",
           "client": "",
           "videolink": "",
           "platform": ["instagram", "snapchat"],
-          "tags": ["instagram", "snapchat", "gaming", "retro"],
+          "tags": ["gaming", "retro"],
           "special": ""
         },
         {
@@ -36,7 +36,7 @@
           "name": "Flipkart Football Game",
           "description": "AR game for flikart which integrates into feature section of flipkart app in ar camera",
           "image": "https://raw.githubusercontent.com/vivekcsein/githost/main/images/projectsImages/alivenow/flipkart_football_game.png",
-          "link": "",
+          "link": "https://www.flipkart.com/camera-filters?lensId=7314b6a2-8e42-4399-9d9c-c0ed236ded99",
           "client": "Flipkart",
           "videolink": "",
           "platform": ["snapchat"],
@@ -48,7 +48,7 @@
           "name": "Pineapple Run",
           "description": "A game simmilar to mario & flip bottal",
           "image": "https://raw.githubusercontent.com/vivekcsein/githost/main/images/projectsImages/alivenow/pineapple_run.png",
-          "link": "",
+          "link": "https://www.snapchat.com/lens/a21eb1ab36df4a74bf31c522be8b031f",
           "client": "",
           "videolink": "",
           "platform": ["snapchat", "instagram"],
@@ -57,14 +57,14 @@
         },
         {
           "id": "alivenow_04",
-          "name": "Pineapple Run",
+          "name": "Cadbury Hand tracking game",
           "description": "A game simillar to catching falling game but with a cache, User have to show dairy milk product to track image, hence no product no game",
           "image": "https://raw.githubusercontent.com/vivekcsein/githost/main/images/projectsImages/alivenow/cadbury_game.png",
           "link": "",
           "client": "",
           "videolink": "",
           "platform": ["snapchat"],
-          "tags": ["javascript"],
+          "tags": ["hand tracking"],
           "special": ""
         }
       ]
@@ -90,10 +90,10 @@
       "projects": [
         {
           "id": "spotar_01",
-          "name": "ASL 360",
+          "name": "Lets learn ASL",
           "description": "A sign language project in which user can interact defen peoples  ",
           "image": "https://raw.githubusercontent.com/vivekcsein/githost/main/images/projectsImages/spotar/sign_lang.png",
-          "link": "",
+          "link": "https://www.snapchat.com/lens/b10d8a39964d40a8b2218da3b3007933",
           "client": "",
           "videolink": "",
           "platform": ["snapchat"],
@@ -153,7 +153,43 @@
           "client": "",
           "videolink": "",
           "platform": ["web"],
-          "tags": ["gaming", "coding"],
+          "tags": ["gaming", "social media", "nextjs"],
+          "special": " "
+        },
+        {
+          "id": "frnz_02",
+          "name": "GSAP",
+          "description": "smooth scroller & swiper animations",
+          "image": "https://raw.githubusercontent.com/vivekcsein/githost/main/images/vivekcse/projects/swiper_anim.png",
+          "link": "https://vivekcsein.github.io/gsap-animations",
+          "client": "",
+          "videolink": "",
+          "platform": ["web"],
+          "tags": ["gsap", "swiper"],
+          "special": " "
+        },
+        {
+          "id": "frnz_03",
+          "name": "Next_Auth",
+          "description": "Sign-In & Sign-out feature",
+          "image": "https://raw.githubusercontent.com/vivekcsein/githost/main/images/vivekcse/projects/auth_image.png",
+          "link": "https://github.com/vivekcsein/next-login",
+          "client": "",
+          "videolink": "",
+          "platform": ["web"],
+          "tags": ["next-auth", "supabase", "postgres"],
+          "special": " "
+        },
+        {
+          "id": "frnz_03",
+          "name": "AR_WebCamera",
+          "description": "A web camera for augmented reality",
+          "image": "https://raw.githubusercontent.com/vivekcsein/githost/main/images/vivekcse/projects/ar_web_camera.png",
+          "link": "https://vivekcsein.github.io/arwebcamera/",
+          "client": "",
+          "videolink": "",
+          "platform": ["web"],
+          "tags": ["mediaDevices", "javascript"],
           "special": " "
         }
       ]
