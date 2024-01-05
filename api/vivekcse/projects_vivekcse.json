@@ -146,30 +146,18 @@
       "projects": [
         {
           "id": "frnz_01",
-          "name": "Frenzz",
-          "description": "Creating, Designing, Developing from scratch",
-          "image": "https://raw.githubusercontent.com/vivekcsein/githost/main/images/frnz/fav_icon.png",
-          "link": "https://frenzz.in",
+          "name": "AR_WebCamera",
+          "description": "A web camera for augmented reality",
+          "image": "https://raw.githubusercontent.com/vivekcsein/githost/main/images/vivekcse/projects/ar_web_camera.png",
+          "link": "https://vivekcsein.github.io/arwebcamera/",
           "client": "",
           "videolink": "",
           "platform": ["web"],
-          "tags": ["gaming", "social media", "nextjs"],
+          "tags": ["mediaDevices", "javascript"],
           "special": " "
         },
         {
           "id": "frnz_02",
-          "name": "GSAP",
-          "description": "smooth scroller & swiper animations",
-          "image": "https://raw.githubusercontent.com/vivekcsein/githost/main/images/vivekcse/projects/swiper_anim.png",
-          "link": "https://vivekcsein.github.io/gsap-animations",
-          "client": "",
-          "videolink": "",
-          "platform": ["web"],
-          "tags": ["gsap", "swiper"],
-          "special": " "
-        },
-        {
-          "id": "frnz_03",
           "name": "Next_Auth",
           "description": "Sign-In & Sign-out feature",
           "image": "https://raw.githubusercontent.com/vivekcsein/githost/main/images/vivekcse/projects/auth_image.png",
@@ -182,14 +170,26 @@
         },
         {
           "id": "frnz_03",
-          "name": "AR_WebCamera",
-          "description": "A web camera for augmented reality",
-          "image": "https://raw.githubusercontent.com/vivekcsein/githost/main/images/vivekcse/projects/ar_web_camera.png",
-          "link": "https://vivekcsein.github.io/arwebcamera/",
+          "name": "GSAP",
+          "description": "smooth scroller & swiper animations",
+          "image": "https://raw.githubusercontent.com/vivekcsein/githost/main/images/vivekcse/projects/swiper_anim.png",
+          "link": "https://vivekcsein.github.io/gsap-animations",
           "client": "",
           "videolink": "",
           "platform": ["web"],
-          "tags": ["mediaDevices", "javascript"],
+          "tags": ["gsap", "swiper"],
+          "special": " "
+        },
+        {
+          "id": "frnz_04",
+          "name": "Frenzz",
+          "description": "Creating, Designing, Developing from scratch",
+          "image": "https://raw.githubusercontent.com/vivekcsein/githost/main/images/frnz/fav_icon.png",
+          "link": "https://frenzz.in",
+          "client": "",
+          "videolink": "",
+          "platform": ["web"],
+          "tags": ["gaming", "social media", "nextjs"],
           "special": " "
         }
       ]
