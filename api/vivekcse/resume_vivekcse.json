@@ -1,0 +1,291 @@
+{
+  "resumeData": {
+    "Heading": {
+      "name": "Vivek",
+      "title": "Full Stack Developer",
+      "desc": "Expert in Developing Responsive & Interactive web-apps using  JAVASCRIPT for last 4 years in HTML & CSS. Experienced in ReactJS, NODEJS & NEXTJS for full- stack Web Development.",
+      "info": [
+        {
+          "id": "info_01",
+          "icon": "Email",
+          "value": "ivivekcse@gmail.com"
+        },
+        {
+          "id": "info_03",
+          "icon": "address",
+          "value": "Delhi,India"
+        },
+        {
+          "id": "info_04",
+          "icon": "Portfolio",
+          "href": "https://www.vivekcse.in"
+        }
+      ],
+      "socialMedia": [
+        {
+          "id": "socialMedia_01",
+          "icon": "Linkedin",
+          "href": "https://www.linkedin.com/in/vivekcsein"
+        },
+        {
+          "id": "socialMedia_02",
+          "icon": "Github",
+          "href": "https://github.com/vivekcsein"
+        },
+        {
+          "id": "socialMedia_03",
+          "icon": "Youtube",
+          "href": "https://www.youtube.com/@vivekcse_in"
+        }
+      ]
+    },
+    "Experience": {
+      "title": "Professional Experience",
+      "companies": [
+        {
+          "id": "al_01",
+          "companyname": "AliveNow",
+          "address": "Bengaluru",
+          "designations": [
+            {
+              "id": "ald_01",
+              "title": "Junior Software Developer",
+              "duration": "Oct 2019 - May 2022",
+              "desc": [
+                {
+                  "id": "aldd_01",
+                  "title": "meta sparkar studio, snapchat lens studio with javascript & typescript"
+                },
+                {
+                  "id": "aldd_02",
+                  "title": "100+ projects in Web, AR & Games and delivered"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tk_01",
+          "companyname": "TechKilla Technologies",
+          "address": "Delhi",
+          "designations": [
+            {
+              "id": "tkd_01",
+              "title": "Frontend Developer",
+              "duration": "July 2022 - June 2022",
+              "desc": [
+                {
+                  "id": "tkd_01_01",
+                  "title": "ThreeJS, cocos-creator for the meta-verse project"
+                },
+                {
+                  "id": "tkd_02_01",
+                  "title": "ReactJS for front-end development"
+                }
+              ]
+            },
+            {
+              "id": "tkd_02",
+              "title": "Full Stack Developer",
+              "duration": "July 2023 - Now...",
+              "desc": [
+                {
+                  "id": "tkd_02_01",
+                  "title": "ReactJS, NextJS for the Websites, web-apps for the multiple clients"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "projectsList": [
+        {
+          "name": "Techkilla MetaVerse",
+          "href": "",
+          "client": "techkila",
+          "desc": "A virtual world where user can intract with contents with gamification"
+        },
+        {
+          "name": "Web Camera App",
+          "href": "",
+          "client": "techkila",
+          "desc": "User can take selfie & AI turn into cartoonify"
+        },
+        {
+          "name": "frnz-ui",
+          "href": "",
+          "client": "self",
+          "desc": "A React-UI library for creating front-end development easy"
+        }
+      ]
+    },
+    "skills": {
+      "title": "Skills",
+      "skillset": [
+        {
+          "id": "skills_00",
+          "title": "Core Skills",
+          "value": [
+            {
+              "id": "skill_01",
+              "title": "ReactJS",
+              "href": ""
+            },
+            {
+              "id": "skill_01",
+              "title": "NextJS",
+              "href": ""
+            }
+          ]
+        },
+
+        {
+          "id": "skills_01",
+          "title": "Technical Skills",
+          "value": [
+            {
+              "id": "skill_01",
+              "title": "Javascript",
+              "href": ""
+            },
+            {
+              "id": "skill_02",
+              "title": "Typescript",
+              "href": ""
+            },
+            {
+              "id": "skill_03",
+              "title": "NodeJS",
+              "href": ""
+            }
+          ]
+        },
+        {
+          "id": "skills_02",
+          "title": "Database Skills",
+          "value": [
+            {
+              "id": "dbs_01",
+              "title": "Postgres",
+              "href": ""
+            }
+          ]
+        },
+        {
+          "id": "skills_03",
+          "title": "Frontend Skills",
+          "value": [
+            {
+              "id": "frt_00",
+              "title": "HTML",
+              "href": ""
+            },
+            {
+              "id": "frt_02",
+              "title": "CSS",
+              "href": ""
+            },
+            {
+              "id": "frt_02",
+              "title": "SASS",
+              "href": ""
+            },
+            {
+              "id": "frt_04",
+              "title": "TailwindCSS",
+              "href": ""
+            },
+            {
+              "id": "frt_04",
+              "title": "GSAP",
+              "href": ""
+            },
+
+            {
+              "id": "frt_03",
+              "title": "SwiperJS",
+              "href": ""
+            },
+            {
+              "id": "frt_04",
+              "title": "MUI",
+              "href": ""
+            }
+          ]
+        },
+
+        {
+          "id": "skills_05",
+          "title": "Backend Skills",
+          "value": [
+            {
+              "id": "bck_01",
+              "title": "Next-Auth",
+              "href": ""
+            },
+            {
+              "id": "bck_02",
+              "title": "JWT",
+              "href": ""
+            }
+          ]
+        },
+        {
+          "id": "skills_05",
+          "title": "Tools",
+          "value": [
+            {
+              "id": "tool_01",
+              "title": "Git",
+              "href": ""
+            },
+            {
+              "id": "tool_01",
+              "title": "Vite",
+              "href": ""
+            },
+            {
+              "id": "tool_01",
+              "title": "Webpack",
+              "href": ""
+            },
+            {
+              "id": "tool_01",
+              "title": "Rollup",
+              "href": ""
+            },
+            {
+              "id": "tool_01",
+              "title": "Photoshop",
+              "href": ""
+            }
+          ]
+        },
+        {
+          "id": "skills_02",
+          "title": "Platform Skills",
+          "value": [
+            {
+              "id": "pts_01",
+              "title": "Meta SparkAR",
+              "href": ""
+            },
+            {
+              "id": "pts_01",
+              "title": "Lens Studio",
+              "href": ""
+            },
+            {
+              "id": "pts_01",
+              "title": "Cocos Creator",
+              "href": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
