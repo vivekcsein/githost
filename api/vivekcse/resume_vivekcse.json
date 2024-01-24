@@ -11,12 +11,12 @@
           "value": "ivivekcse@gmail.com"
         },
         {
-          "id": "info_03",
-          "icon": "address",
-          "value": "Delhi,India"
+          "id": "info_02",
+          "icon": "Address",
+          "value": "Delhi, India"
         },
         {
-          "id": "info_04",
+          "id": "info_03",
           "icon": "Portfolio",
           "href": "https://www.vivekcse.in"
         }
@@ -44,20 +44,20 @@
       "companies": [
         {
           "id": "al_01",
-          "companyname": "AliveNow",
+          "companyName": "AliveNow",
           "address": "Bengaluru",
           "designations": [
             {
-              "id": "ald_01",
+              "id": "al_01_01",
               "title": "Junior Software Developer",
               "duration": "Oct 2019 - May 2022",
               "desc": [
                 {
-                  "id": "aldd_01",
+                  "id": "al_01_01_01",
                   "title": "meta sparkar studio, snapchat lens studio with javascript & typescript"
                 },
                 {
-                  "id": "aldd_02",
+                  "id": "al_01_01_02",
                   "title": "100+ projects in Web, AR & Games and delivered"
                 }
               ]
@@ -66,7 +66,7 @@
         },
         {
           "id": "tk_01",
-          "companyname": "TechKilla Technologies",
+          "companyName": "TechKilla Technologies",
           "address": "Delhi",
           "designations": [
             {
@@ -106,13 +106,13 @@
           "name": "Techkilla MetaVerse",
           "href": "",
           "client": "techkila",
-          "desc": "A virtual world where user can intract with contents with gamification"
+          "desc": "A virtual world where user can interact with contents with gamification"
         },
         {
           "name": "Web Camera App",
           "href": "",
           "client": "techkila",
-          "desc": "User can take selfie & AI turn into cartoonify"
+          "desc": "User can take a selfie & AI turn into cartoonify"
         },
         {
           "name": "frnz-ui",
@@ -126,16 +126,16 @@
       "title": "Skills",
       "skillset": [
         {
-          "id": "skills_00",
+          "id": "skills_core",
           "title": "Core Skills",
           "value": [
             {
-              "id": "skill_01",
+              "id": "skill_c1",
               "title": "ReactJS",
               "href": ""
             },
             {
-              "id": "skill_01",
+              "id": "skill_c2",
               "title": "NextJS",
               "href": ""
             }
@@ -143,28 +143,28 @@
         },
 
         {
-          "id": "skills_01",
+          "id": "skills_technical",
           "title": "Technical Skills",
           "value": [
             {
-              "id": "skill_01",
+              "id": "skill_tc_01",
               "title": "Javascript",
               "href": ""
             },
             {
-              "id": "skill_02",
+              "id": "skill_tc_02",
               "title": "Typescript",
               "href": ""
             },
             {
-              "id": "skill_03",
+              "id": "skill_tc_03",
               "title": "NodeJS",
               "href": ""
             }
           ]
         },
         {
-          "id": "skills_02",
+          "id": "skills_db_02",
           "title": "Database Skills",
           "value": [
             {
@@ -175,7 +175,7 @@
           ]
         },
         {
-          "id": "skills_03",
+          "id": "skills_frt_03",
           "title": "Frontend Skills",
           "value": [
             {
@@ -184,7 +184,7 @@
               "href": ""
             },
             {
-              "id": "frt_02",
+              "id": "frt_01",
               "title": "CSS",
               "href": ""
             },
@@ -194,7 +194,7 @@
               "href": ""
             },
             {
-              "id": "frt_04",
+              "id": "frt_03",
               "title": "TailwindCSS",
               "href": ""
             },
@@ -205,12 +205,12 @@
             },
 
             {
-              "id": "frt_03",
+              "id": "frt_05",
               "title": "SwiperJS",
               "href": ""
             },
             {
-              "id": "frt_04",
+              "id": "frt_06",
               "title": "MUI",
               "href": ""
             }
@@ -218,7 +218,7 @@
         },
 
         {
-          "id": "skills_05",
+          "id": "skills_bck",
           "title": "Backend Skills",
           "value": [
             {
@@ -234,7 +234,7 @@
           ]
         },
         {
-          "id": "skills_05",
+          "id": "skills_tools",
           "title": "Tools",
           "value": [
             {
@@ -243,29 +243,29 @@
               "href": ""
             },
             {
-              "id": "tool_01",
+              "id": "tool_02",
               "title": "Vite",
               "href": ""
             },
             {
-              "id": "tool_01",
+              "id": "tool_03",
               "title": "Webpack",
               "href": ""
             },
             {
-              "id": "tool_01",
+              "id": "tool_04",
               "title": "Rollup",
               "href": ""
             },
             {
-              "id": "tool_01",
+              "id": "tool_05",
               "title": "Photoshop",
               "href": ""
             }
           ]
         },
         {
-          "id": "skills_02",
+          "id": "skills_platform",
           "title": "Platform Skills",
           "value": [
             {
@@ -274,12 +274,12 @@
               "href": ""
             },
             {
-              "id": "pts_01",
+              "id": "pts_02",
               "title": "Lens Studio",
               "href": ""
             },
             {
-              "id": "pts_01",
+              "id": "pts_03",
               "title": "Cocos Creator",
               "href": ""
             }
