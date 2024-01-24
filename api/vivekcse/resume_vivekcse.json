@@ -104,19 +104,31 @@
       "projectsList": [
         {
           "name": "Techkilla MetaVerse",
-          "href": "",
+          "href": "https://youtu.be/i2lSu9ZnRtc",
           "client": "techkila",
           "desc": "A virtual world where user can interact with contents with gamification"
         },
         {
           "name": "Web Camera App",
-          "href": "",
+          "href": "https://vivekcsein.github.io/arwebcamera/",
           "client": "techkila",
           "desc": "User can take a selfie & AI turn into cartoonify"
         },
         {
+          "name": "GSAP",
+          "href": "https://vivekcsein.github.io/gsap-animations",
+          "client": "self",
+          "desc": "smooth scroller & swiper animations"
+        },
+        {
+          "name": "Next-Auth",
+          "href": "https://github.com/vivekcsein/next-login",
+          "client": "self",
+          "desc": "Sign-In & Sign-out feature in NextJS"
+        },
+        {
           "name": "frnz-ui",
-          "href": "",
+          "href": "https://www.npmjs.com/package/frnz-ui",
           "client": "self",
           "desc": "A React-UI library for creating front-end development easy"
         }
@@ -137,6 +149,11 @@
             {
               "id": "skill_c2",
               "title": "NextJS",
+              "href": ""
+            },
+            {
+              "id": "skill_c3",
+              "title": "ThreeJS",
               "href": ""
             }
           ]

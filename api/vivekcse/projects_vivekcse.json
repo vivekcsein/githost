@@ -182,14 +182,14 @@
         },
         {
           "id": "frnz_04",
-          "name": "Frenzz",
-          "description": "Creating, Designing, Developing from scratch",
+          "name": "frnz-ui",
+          "description": "A React-UI library for creating front-end development easy",
           "image": "https://raw.githubusercontent.com/vivekcsein/githost/main/images/frnz/fav_icon.png",
-          "link": "https://frenzz.in",
+          "link": "https://www.npmjs.com/package/frnz-ui",
           "client": "",
           "videolink": "",
           "platform": ["web"],
-          "tags": ["gaming", "social media", "nextjs"],
+          "tags": ["react-ui", "library", "rollup"],
           "special": " "
         }
       ]
