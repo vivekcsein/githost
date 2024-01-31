@@ -1,0 +1,252 @@
+{
+  "javascriptInterview": [
+    {
+      "question": "What is JavaScript?",
+      "Def": "JavaScript is a high-level programming language used to create dynamic and interactive web pages.",
+      "answer": [
+        "JavaScript is a lightweight, high level & interpreted programming language (just-in-time line by line compiltion).",
+        "It allows you to build interactivity into otherwise static HTML pages.",
+        "JavaScript is case-sensitive language.",
+        "It has curly -brakcets syntax, dynamic typing, prototype-based object-oriented capabilities & first class functions."
+      ]
+    },
+    {
+      "question": "Explain the difference between let, const, and var?",
+      "Def": "let and const have block scope and are block-level declarations, while var has function scope and can be re-declared and updated within the same function.",
+      "answer": [
+        "user can declare varibale using these 3 keywords.",
+        "Var is a function scoped where both let and const have block scope.",
+        "var once declared can be re-declared with same name and its value can be re-assign.",
+        "let once declared can not be redecalred again with same name and its value can be re-assign.",
+        "const have to declared & it must assign a value at the time of declration & it cannot be re-assign.",
+        "let & const hosited in temperal dead zone before it get initilized.",
+        "var is assigned with undefined value when hoisted."
+      ]
+    },
+    {
+      "question": "How does hoisting work in JavaScript?",
+      "Def": "Hoisting is JavaScript's default behavior of moving declarations to the top of the current scope, allowing functions and variables to be used before they are declared.",
+      "answer": [
+        "In hoisting, the JS engine works behind the scenes to move the variable and function declarations to the top.",
+        "Hoisting is JavaScript's default behavior of moving declarations to the top of the current scope",
+        "Hoisting applies to variable declarations and to function declarations.",
+        "Because of this, JavaScript functions can be called before they are declared"
+      ]
+    },
+    {
+      "question": "Describe the concept of closures?",
+      "Def": "A closure is a function that has access to the variables from outer (or parent) functions even after the outer function has finished executing.",
+      "answer": [
+        "JavaScript variables can belong to the local or global scope.",
+        "Global variables can be made local (private) with closures.",
+        "A function can access all variables defined inside the function"
+      ]
+    },
+    {
+      "question": "Explain the event loop in JavaScript?",
+      "Def": "The event loop is a mechanism used by JavaScript runtime environments to manage asynchronous code execution by continuously monitoring the call stack and task queue.",
+      "answer": [
+        "The event loop is a mechanism used by JavaScript runtime environments to manage asynchronous code execution."
+      ]
+    },
+    {
+      "question": "What is the difference between == and ===?",
+      "Def": "The == operator checks for equality after converting operands to a common type, while the === operator checks for equality without type conversion.",
+      "answer": []
+    },
+    {
+      "question": "How do you check the type of a variable in JavaScript?",
+      "Def": "The typeof operator is used to check the type of a variable in JavaScript.",
+      "answer": []
+    },
+    {
+      "question": "What is the use of the this keyword in JavaScript?",
+      "Def": "In JavaScript, the this keyword refers to the current execution context or object.",
+      "answer": [
+        "In JavaScript, the this keyword refers to an object.",
+        "Which object depends on how this is being invoked (used or called).",
+        "The this keyword refers to different objects depending on how it is used:"
+      ]
+    },
+    {
+      "question": "Explain the difference between function declaration and function expression.",
+      "Def": "A function declared using var, let or const is hoisted while a function expression is not.",
+      "answer": []
+    },
+    {
+      "question": "How does the setTimeout function work?",
+      "Def": "The setTimeout() function in JavaScript allows you to execute a piece of code after a certain amount of time has passed.",
+      "answer": [
+        "The setTimeout() function is asynchronous, meaning that it does not block the execution of the current function. Instead, it schedules the callback function to be executed at a later time."
+      ]
+    },
+    {
+      "question": "What is a callback function?",
+      "Def": "A callback function is a function that is passed as an argument to another function and is executed after the outer function has completed execution.",
+      "answer": [
+        "A callback is a function passed to some method as argument to another function.",
+        "callback function runs after another function has finished hence name is callback function."
+      ]
+    },
+    {
+      "question": "Explain the concept of a pure function.",
+      "Def": "A pure function is a function that given the same input will always return the same output and does not have any observable side effects.",
+      "answer": []
+    },
+    {
+      "question": "Describe the differences between function.call, function.apply, and function.bind.",
+      "Def": "function.call and function.apply are methods used to invoke a function with a specified this value and arguments, while function.bind returns a new function with a pre-set this value and partially applied arguments.",
+      "answer": []
+    },
+    {
+      "question": "What is the purpose of the arguments object in a function?",
+      "Def": "The arguments object in a function provides access to the arguments passed to the function.",
+      "answer": []
+    },
+    {
+      "question": "How do you create a closure in JavaScript?",
+      "Def": "A closure is created in JavaScript when a function has access to variables from its outer (enclosing) function, even after the outer function has returned.",
+      "answer": []
+    },
+    {
+      "question": "What is the use of the bind method?",
+      "Def": "The bind method in JavaScript is used to create a new function with a specified this value and partially applied arguments.",
+      "answer": []
+    },
+    {
+      "question": "What is the difference between a shallow copy and a deep copy?",
+      "Def": "A shallow copy creates a new object with the same properties as the original object, while a deep copy creates a new object with a new copy of the values of the original object's properties.",
+      "answer": []
+    },
+    {
+      "question": "How does the call stack work in JavaScript?",
+      "Def": "The call stack is a data structure used by the JavaScript engine to keep track of the currently executing function and its context.",
+      "answer": []
+    },
+    {
+      "question": "Explain the concept of function currying.",
+      "Def": "Function currying is a technique in JavaScript where a function is transformed to return a new function that accepts the remaining arguments.",
+      "answer": []
+    },
+    {
+      "question": "How can you avoid callback hell in JavaScript?",
+      "Def": "Callback hell can be avoided in JavaScript by using promises, async/await, or higher-order functions like map, reduce, and filter.",
+      "answer": []
+    },
+    {
+      "question": "What is prototypal inheritance?",
+      "Def": "Prototypal inheritance is a mechanism in JavaScript where objects inherit properties and methods from other objects.",
+      "answer": []
+    },
+    {
+      "question": "How do you create an object in JavaScript?",
+      "Def": "Objects in JavaScript can be created using object literals, constructor functions, or object.create() method.",
+      "answer": []
+    },
+    {
+      "question": "What is the purpose of the prototype property in JavaScript?",
+      "Def": "The prototype property in JavaScript is used to add properties and methods to constructor functions and their instances.",
+      "answer": []
+    },
+    {
+      "question": "Explain the difference between Object.create and the constructor pattern.",
+      "Def": "Object.create creates a new object with a specified prototype and properties, while the constructor pattern creates a new object with a constructor function and its prototype.",
+      "answer": []
+    },
+    {
+      "question": "How do you add a property to an object in JavaScript?",
+      "Def": "A property can be added to an object in JavaScript using dot notation or bracket notation.",
+      "answer": []
+    },
+    {
+      "question": "What is the hasOwnProperty method used for?",
+      "Def": "The hasOwnProperty method in JavaScript is used to check if an object has a specific property as its own property, not inherited from its prototype chain.",
+      "answer": []
+    },
+    {
+      "question": "How can you prevent modification of object properties in JavaScript?",
+      "Def": "Object properties in JavaScript can be prevented from modification using Object.freeze() method.",
+      "answer": []
+    },
+    {
+      "question": "Describe the use of the new keyword.",
+      "Def": "The new keyword in JavaScript is used to create a new instance of a constructor function and bind its this value to the new object.",
+      "answer": []
+    },
+    {
+      "question": "Explain the concept of Object Destructuring in JavaScript.",
+      "Def": "Object destructuring in JavaScript is a syntax for unpacking values from objects and assigning them to variables.",
+      "answer": []
+    },
+    {
+      "question": "What is the difference between null and undefined?",
+      "Def": "Null is an intentional absence of any object value, while undefined is a value that represents an uninitialized or non-existent variable or property.",
+      "answer": []
+    },
+    {
+      "question": "What is the DOM?",
+      "Def": "The DOM (Document Object Model) is a programming interface for HTML and XML documents that represents the document as a tree of nodes and objects.",
+      "answer": []
+    },
+    {
+      "question": "How do you select elements with Vanilla JavaScript?",
+      "Def": "Elements in the DOM can be selected using methods like document.getElementById(), document.getElementsByClassName(), document.querySelector(), and document.querySelectorAll().",
+      "answer": []
+    },
+    {
+      "question": "Explain event delegation in JavaScript.",
+      "Def": "Event delegation in JavaScript is a technique where an event listener is added to a parent element instead of individual child elements, allowing the event to be captured and handled by the parent element.",
+      "answer": []
+    },
+    {
+      "question": "What is the purpose of the addEventListener method?",
+      "Def": "The addEventListener method in JavaScript is used to attach an event listener to an element, allowing the element to respond to specific events like click, mouseover, or keydown.",
+      "answer": []
+    },
+    {
+      "question": "How do you create and remove elements in the DOM?",
+      "Def": "Elements can be created in the DOM using methods like document.createElement(), document.createTextNode(), and element.cloneNode(), and can be removed using element.remove() or parentNode.removeChild().",
+      "answer": []
+    },
+    {
+      "question": "Explain the concept of event propagation.",
+      "Def": "Event propagation in JavaScript is the process of events bubbling up or capturing down the DOM tree, allowing multiple elements to respond to the same event.",
+      "answer": []
+    },
+    {
+      "question": "What is the purpose of addEventListener method?",
+      "Def": "The addEventListener method is used attach an event handler to an element, allowing you to respond to user interactions or other events.",
+      "answer": []
+    },
+    {
+      "question": "How do you create and remove elements in the DOM?",
+      "Def": "To create an element in the DOM, you can use document.createElement() and then append it to the parent node using appendChild(). To remove an element, you can call removeChild() on the parent node.",
+      "answer": []
+    },
+    {
+      "question": "Explain the concept of event propagation.",
+      "Def": "Event propagation is the concept that describes how events bubble up through the DOM tree, allowing event handlers to be attached to parent elements and still respond to events that occur on child elements.",
+      "answer": []
+    },
+    {
+      "question": "How can you prevent the default behaviour of an event?",
+      "Def": "To prevent the default behavior of an event, you can call the preventDefault() method on the event object, which stops the browser from performing its default action for that event.",
+      "answer": []
+    },
+    {
+      "question": "What is the purpose of the data- attribute in HTML?",
+      "Def": "The data- attribute in HTML is used to store custom data private to the page or application, allowing you to add arbitrary data to HTML elements without affecting their behavior or styling.",
+      "answer": []
+    },
+    {
+      "question": "Describe the difference between innerHTML and textContent.",
+      "Def": "innerHTML sets or gets the HTML content of an element, including tags and formatting, while textContent sets or gets the text content of an element, without any HTML tags or formatting.",
+      "answer": []
+    },
+    {
+      "question": "How do you handle asynchronous code in JavaScript?",
+      "Def": "To handle asynchronous code in JavaScript, you can use callbacks, promises, or async/await syntax, which allow you to execute code that depends on the completion of other tasks without blocking the rest of the application.",
+      "answer": []
+    }
+  ]
+}
