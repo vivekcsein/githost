@@ -247,6 +247,33 @@
       "question": "How do you handle asynchronous code in JavaScript?",
       "Def": "To handle asynchronous code in JavaScript, you can use callbacks, promises, or async/await syntax, which allow you to execute code that depends on the completion of other tasks without blocking the rest of the application.",
       "answer": []
+    },
+    {
+      "question": "what is promises?",
+      "Def": "A Promise is an object that represents the eventual completion or failure of an asynchronous operation. Promises are used to handle asynchronous operations in a more efficient and manageable way.",
+      "answer": [
+        "A Promise is an object that represents the eventual completion or failure of an asynchronous operation",
+        "Promises are used to handle asynchronous operations in a more efficient and manageable way.",
+        "Promises can be created using the Promise constructor. The Promise constructor takes a function as its argument, which is called the executor function. The executor function is responsible for performing the asynchronous operation and resolving or rejecting the promise.",
+        "Once a promise is created, it can be used to handle the completion or failure of the asynchronous operation. This can be done using the then() and catch() methods. The then() method is used to handle the completion of the promise, and the catch() method is used to handle the failure of the promise."
+      ]
+    },
+    {
+      "question": "what is fetch in javascript?",
+      "Def": "The Fetch API uses promises, which makes it easier to handle asynchronous operations.",
+      "answer": [
+        "To use the Fetch API, you can use the fetch() function. The fetch() function takes a URL as its argument and returns a promise.",
+        "The promise will resolve to a Response object, which represents the response to the network request."
+      ]
+    },
+    {
+      "question": "Difference between Fetch and Promise",
+      "Def": " Fetch is specifically designed for making network requests, while Promise can be used for any type of asynchronous operation.",
+      "answer": [
+        "Fetch uses promises to handle asynchronous operations, while Promise can be used to handle asynchronous operations from any source.",
+        " Fetch is a newer API that is designed to be easier to use than the older XMLHttpRequest API ",
+        "Promise is an object that represents the eventual completion or failure of an asynchronous operation."
+      ]
     }
   ]
 }
