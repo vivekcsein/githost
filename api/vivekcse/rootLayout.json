@@ -1,5 +1,5 @@
 {
-  "layoutdata": {
+  "rootLayoutData": {
     "HeaderData": {
       "header_Logo": {
         "src": "logo.png",
@@ -8,33 +8,33 @@
       },
       "navbar": {
         "nav_Links": [
-          { "id": 1, "href": "./", "label": "Home", "dropdown": false },
+          { "id": 1, "href": "/", "label": "Home", "special": false },
           {
             "id": 2,
             "href": "#products",
             "label": "Products",
-            "dropdown": true,
-            "details": "productsData"
+            "special": true,
+            "details": "dropdown"
           },
           {
             "id": 3,
-            "href": "/AboutUS",
-            "label": "AboutUS",
-            "dropdown": false
+            "href": "/projects",
+            "label": "Projects",
+            "special": false
           },
 
           {
             "id": 4,
             "href": "/ContactUS",
             "label": "ContactUS",
-            "dropdown": false
+            "special": false
           }
         ]
       }
     },
     "FooterData": {
       "footer_logo": "",
-      "copyright_message": "Copyright © 2024 FRENZZ Pvt. Ltd All Right are Reserved",
+      "copyright_message": "Copyright © 2024 VivekCSE All Right are Reserved",
 
       "footer_Links": [
         {
@@ -67,11 +67,6 @@
           "links": [
             {
               "id": 1,
-              "label": "customer@frnz.com",
-              "href": "mailto:customer@frnz.com"
-            },
-            {
-              "id": 2,
               "label": "Subscribe Now",
               "href": "/"
             }

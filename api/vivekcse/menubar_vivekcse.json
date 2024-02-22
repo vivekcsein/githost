@@ -1,0 +1,310 @@
+{
+  "MenuData": {
+    "title": "My Tech Stack",
+    "desc": "These are the current tech stack for the development",
+    "navbar": [
+      {
+        "id": "nav_01",
+        "title": "Core Skils",
+        "category": "Core",
+        "product": [
+          {
+            "id": "cat_coreskills01",
+            "title": "ReactJS",
+            "category": "Core",
+            "desc": "2+ experience in using reacts to develop frontend",
+            "image": "",
+            "level": "Best",
+            "author": "vivekcse",
+            "rating": 4,
+            "totalRating": 5,
+            "totalReviews": 50
+          },
+          {
+            "id": "cat_coreskills02",
+            "title": "NextJS",
+            "category": "Core",
+            "desc": "In hand skills on NextJS to create full stack web application",
+            "image": "",
+            "level": "Best",
+            "author": "vivekcse",
+            "rating": 4,
+            "totalRating": 5,
+            "totalReviews": 50
+          },
+          {
+            "id": "cat_coreskills03",
+            "title": "GSAP",
+            "category": "Core",
+            "desc": "Replicating beautiful themes & powerful animations throughout the appication",
+            "image": "",
+            "level": "Best",
+            "author": "vivekcse",
+            "rating": 4,
+            "totalRating": 5,
+            "totalReviews": 50
+          },
+          {
+            "id": "cat_coreskills04",
+            "title": "next-auth",
+            "category": "Core",
+            "desc": "Worked on user authentication & secure signin signout process.",
+            "image": "",
+            "level": "Good",
+            "author": "vivekcse",
+            "rating": 2.5,
+            "totalRating": 5,
+            "totalReviews": 50
+          }
+        ]
+      },
+      {
+        "id": "nav_02",
+        "title": "Languages",
+        "category": "Programming",
+        "product": [
+          {
+            "id": "cat_program01",
+            "title": "Javascript",
+            "category": "Programming",
+            "desc": "The first language which i learn & mastered on it",
+            "image": "",
+            "level": "Best",
+            "author": "vivekcse",
+            "rating": 3.5,
+            "totalRating": 5,
+            "totalReviews": 50
+          },
+          {
+            "id": "cat_program02",
+            "title": "Typescript",
+            "category": "Programming",
+            "desc": "Typescript make me different from other developers for secure applications & bug free",
+            "image": "",
+            "level": "Best",
+            "author": "vivekcse",
+            "rating": 4,
+            "totalRating": 5,
+            "totalReviews": 50
+          }
+        ]
+      },
+
+      {
+        "id": "nav_03",
+        "title": "Frontend",
+        "category": "Frontend",
+        "product": [
+          {
+            "id": "cat_frontend01",
+            "title": "HTML & CSS",
+            "category": "Frontend",
+            "desc": "A expertise in HTML & CSS to create beautifull & responsive layout",
+            "image": "",
+            "level": "Best",
+            "author": "vivekcse",
+            "rating": 4,
+            "totalRating": 5,
+            "totalReviews": 50
+          },
+          {
+            "id": "cat_frontend02",
+            "title": "TailwindCSS",
+            "category": "Frontend",
+            "desc": "I love tailwind combined with sass to write css faster",
+            "image": "",
+            "level": "Intermediate",
+            "author": "vivekcse",
+            "rating": 2.5,
+            "totalRating": 5,
+            "totalReviews": 50
+          },
+          {
+            "id": "cat_frontend03",
+            "title": "SASS",
+            "category": "Frontend",
+            "desc": "Sass is my powerhouse to create css for large scale applications",
+            "image": "",
+            "level": "Expert",
+            "author": "vivekcse",
+            "rating": 4.5,
+            "totalRating": 5,
+            "totalReviews": 50
+          }
+        ]
+      },
+      {
+        "id": "nav_04",
+        "title": "Design",
+        "category": "Design",
+        "product": [
+          {
+            "id": "cat_design01",
+            "title": "Photoshop",
+            "category": "Design",
+            "desc": "I am able to modify designs into a usefull designs to work efficiently",
+            "image": "",
+            "level": "Good",
+            "author": "vivekcse",
+            "rating": 3,
+            "totalRating": 5,
+            "totalReviews": 50
+          },
+          {
+            "id": "cat_design02",
+            "title": "Figma",
+            "category": "Design",
+            "desc": "Figma i think  best tool to work on SVG & creating CSS from scratch",
+            "image": "",
+            "level": "Intermediate",
+            "author": "vivekcse",
+            "rating": 2,
+            "totalRating": 5,
+            "totalReviews": 50
+          },
+          {
+            "id": "cat_design03",
+            "title": "Blender",
+            "category": "Design",
+            "desc": "I have basic skills to modify 3d designs into working models.",
+            "image": "",
+            "level": "Good",
+            "author": "vivekcse",
+            "rating": 2,
+            "totalRating": 5,
+            "totalReviews": 50
+          },
+          {
+            "id": "cat_design04",
+            "title": "Spline",
+            "category": "Design",
+            "desc": "I have experience of working on spline software to create beautifull 3d themes",
+            "image": "",
+            "level": "Good",
+            "author": "vivekcse",
+            "rating": 2,
+            "totalRating": 5,
+            "totalReviews": 50
+          }
+        ]
+      },
+      {
+        "id": "nav_05",
+        "title": "Backend",
+        "category": "Backend",
+        "product": [
+          {
+            "id": "cat_backend01",
+            "title": "Express",
+            "category": "Backend",
+            "desc": "I have knowedge of express to understand structure of MVC  and REST API.",
+            "image": "",
+            "level": "Beginner",
+            "author": "vivekcse",
+            "rating": 1,
+            "totalRating": 5,
+            "totalReviews": 50
+          },
+          {
+            "id": "cat_backend02",
+            "title": "NestJS",
+            "category": "Backend",
+            "desc": "View Model Controller (mvc) architecture i can create easily with NestJS",
+            "image": "",
+            "level": "Intermediate",
+            "author": "vivekcse",
+            "rating": 2,
+            "totalRating": 5,
+            "totalReviews": 50
+          }
+        ]
+      },
+      {
+        "id": "nav_06",
+        "title": "Database",
+        "category": "Database",
+        "product": [
+          {
+            "id": "cat_database01",
+            "title": "Postgres",
+            "category": "Database",
+            "desc": "Postgres is future proof database for securing & large scale databases",
+            "image": "",
+            "level": "Intermediate",
+            "author": "vivekcse",
+            "rating": 2.5,
+            "totalRating": 5,
+            "totalReviews": 50
+          },
+          {
+            "id": "cat_database02",
+            "title": "MongoDB",
+            "category": "Database",
+            "desc": "MongoDb i used for chat application in my college times.",
+            "image": "",
+            "level": "Good",
+            "author": "vivekcse",
+            "rating": 1.5,
+            "totalRating": 5,
+            "totalReviews": 50
+          }
+        ]
+      },
+      {
+        "id": "nav_07",
+        "title": "Tools",
+        "category": "Tools",
+        "product": [
+          {
+            "id": "cat_tool01",
+            "title": "SparkAR studio",
+            "category": "Tools",
+            "desc": "Spark AR studio is javascript based application to create instagram ar-filters & ar-ads",
+            "image": "",
+            "level": "Expert",
+            "author": "vivekcse",
+            "rating": 4.5,
+            "totalRating": 5,
+            "totalReviews": 400
+          },
+          {
+            "id": "cat_tool02",
+            "title": "Lens Studio",
+            "category": "Tools",
+            "desc": "Lens studio is a typescript tool to create augmented reality ar filters for Snapchat",
+            "image": "",
+            "level": "Expert",
+            "author": "vivekcse",
+            "rating": 5,
+            "totalRating": 5,
+            "totalReviews": 400
+          },
+          {
+            "id": "cat_tool03",
+            "title": "Cocos Creator",
+            "category": "Tools",
+            "desc": "Cocos Creator is a tool o create games for Web & Android",
+            "image": "",
+            "level": "Best",
+            "author": "vivekcse",
+            "rating": 4,
+            "totalRating": 5,
+            "totalReviews": 20
+          },
+          {
+            "id": "cat_tool04",
+            "title": "Unreal Engine",
+            "category": "Tools",
+            "desc": "i am familiar with this big gaming engine but i have to learn more",
+            "image": "",
+            "level": "Beginner",
+            "author": "vivekcse",
+            "rating": 0.5,
+            "totalRating": 5,
+            "totalReviews": 1
+          }
+        ]
+      }
+    ]
+  }
+}
