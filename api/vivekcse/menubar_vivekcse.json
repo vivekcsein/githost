@@ -55,6 +55,18 @@
             "rating": 2.5,
             "totalRating": 5,
             "totalReviews": 50
+          },
+          {
+            "id": "cat_coreskills05",
+            "title": "Astro",
+            "category": "Core",
+            "desc": "I am learning Astro framework so that smaller projects can be delivered very fast",
+            "image": "",
+            "level": "Good",
+            "author": "vivekcse",
+            "rating": 2.5,
+            "totalRating": 5,
+            "totalReviews": 50
           }
         ]
       },
@@ -115,7 +127,7 @@
             "image": "",
             "level": "Intermediate",
             "author": "vivekcse",
-            "rating": 2.5,
+            "rating": 3,
             "totalRating": 5,
             "totalReviews": 50
           },
