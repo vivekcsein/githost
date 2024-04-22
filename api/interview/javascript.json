@@ -1,5 +1,5 @@
 {
-  "javascriptInterview": [
+  "interviewData": [
     {
       "question": "What is JavaScript?",
       "Def": "JavaScript is a high-level programming language used to create dynamic and interactive web pages.",
@@ -82,7 +82,7 @@
     },
     {
       "question": "What is a callback function?",
-      "Def": "A callback function is a function that is passed as an argument to another function and is executed after the outer function has completed execution.",
+      "Def": "A callback function is a function that is passed as an argument to another function and is executed after the parent function has completed execution.",
       "answer": [
         "A callback is a function passed to some method as argument to another function.",
         "callback function runs after another function has finished hence name is callback function."
