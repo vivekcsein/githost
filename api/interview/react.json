@@ -1,18 +1,18 @@
 {
   "interviewData": [
     {
-      "question": "What is ReactJS?",
-      "Def": "React is a open-source JavaScript library for building user interfaces or Ui components developed by Facebook",
-      "answer": [
+      "title": "What is ReactJS?",
+      "desc": "React is a open-source JavaScript library for building user interfaces or Ui components developed by Facebook",
+      "details": [
         "React is a tool for building UI components. React is specially used to build single-page applications.",
         "React allows to create reusable UI components and efficiently update and render them in response to data changes.",
         "ReactJS uses a virtual DOM to improve performance and reduce the load on the browser, resulting in faster and smoother user experiences."
       ]
     },
     {
-      "question": "What are the features of ReactJS?",
-      "Def": "Declarative, Component-based, Virtual DOM, JSX, and Unidirectional data flow",
-      "answer": [
+      "title": "What are the features of ReactJS?",
+      "desc": "Declarative, Component-based, Virtual DOM, JSX, and Unidirectional data flow",
+      "details": [
         "Virtual DOM: ReactJS uses a virtual DOM to improve performance by minimizing direct manipulation of the actual dom and reduce the load on the browser.",
         "Component-based: ReactJS enables developers to build reusable UI components that can be combined to create complex UIs.",
         "JSX: ReactJS allows to write HTML-Like code within Javascript to easier read & maintenance",
@@ -23,9 +23,9 @@
       ]
     },
     {
-      "question": "What are the limitations of React?",
-      "Def": "",
-      "answer": [
+      "title": "What are the limitations of React?",
+      "desc": "",
+      "details": [
         "React is just a library, not a full framework.",
         "There is a learning curve for beginners who are new to web development.",
         "Integrating React into a traditional MVC framework requires some additional configuration.",
@@ -34,26 +34,26 @@
       ]
     },
     {
-      "question": "What is JSX?",
-      "Def": "JSX stands for JavaScript XML & it is syntax extension for JavaScript describing what you want to render in your application.",
-      "answer": [
+      "title": "What is JSX?",
+      "desc": "JSX stands for JavaScript XML & it is syntax extension for JavaScript describing what you want to render in your application.",
+      "details": [
         "JSX is a syntax extension for JavaScript that allows developers to write HTML-like code in their JavaScript code.",
         "It makes it easier to write and reason about the UI code, and it is converted to regular JavaScript code during the build process."
       ]
     },
     {
-      "question": "What is react Fragment?",
-      "Def": "Fragment is a common pattern in React is for a component to return multiple elements.",
-      "answer": [
+      "title": "What is react Fragment?",
+      "desc": "Fragment is a common pattern in React is for a component to return multiple elements.",
+      "details": [
         "Frament is represented as <></>",
         "Fragments let you group a list of children without adding extra nodes to the DOM",
         "React.Fragment must have a key"
       ]
     },
     {
-      "question": "What are the advantages of using ReactJS?",
-      "Def": "Reusable components, Improved performance, Easy debugging, and Large community",
-      "answer": [
+      "title": "What are the advantages of using ReactJS?",
+      "desc": "Reusable components, Improved performance, Easy debugging, and Large community",
+      "details": [
         "Reusable components: ReactJS enables developers to build reusable UI components that can be combined to create complex UI's.",
         "Improved performance: ReactJS uses a virtual DOM to improve performance and reduce the load on the browser.",
         "Easy debugging: ReactJS follows a unidirectional data flow pattern, which makes it easier to reason about the application state and debug issues.",
@@ -61,26 +61,26 @@
       ]
     },
     {
-      "question": "What is DOM ?",
-      "Def": "Dom (Document Object Model) is a tree like structure represention of web page which allows javascript to dynamically acess & manipulate content and structure of the web page"
+      "title": "What is DOM ?",
+      "desc": "Dom (Document Object Model) is a tree like structure represention of web page which allows javascript to dynamically acess & manipulate content and structure of the web page"
     },
     {
-      "question": "What is the virtual DOM?",
-      "Def": "Virtual DOM is a lightweight copy of the actual DOM in-memory to optimize performance by updating changes of the actual dom",
-      "answer": [
+      "title": "What is the virtual DOM?",
+      "desc": "Virtual DOM is a lightweight copy of the actual DOM in-memory to optimize performance by updating changes of the actual dom",
+      "details": [
         "The virtual DOM is a lightweight in-memory representation of the real DOM that allows ReactJS to improve performance and reduce the load on the browser.",
         "When the data changes, ReactJS updates the virtual DOM and then compares it to the previous version to determine the minimum number of changes needed to update the real DOM.",
         "This process, called reconciliation, results in faster and smoother user experiences."
       ]
     },
     {
-      "question": "What are the keys in React?",
-      "Def": "Keys are used to uniquely identify and differentiate between components in React"
+      "title": "What are the keys in React?",
+      "desc": "Keys are used to uniquely identify and differentiate between components in React"
     },
     {
-      "question": "What is a component in ReactJS?",
-      "Def": "building",
-      "answer": [
+      "title": "What is a component in ReactJS?",
+      "desc": "building",
+      "details": [
         "A component are the building block for creating user interfaces.",
         "Components are reusable and can be combined to create complex UIs.",
         "Components can accept data as props and can have their own state.",
@@ -88,47 +88,47 @@
       ]
     },
     {
-      "question": "What is the difference between a class component and a functional component in ReactJS?",
-      "Def": "class components use ES6 classes and have additional features like state and lifecycle methods, while functional components are simpler and are often used with hooks",
-      "answer": [
+      "title": "What is the difference between a class component and a functional component in ReactJS?",
+      "desc": "class components use ES6 classes and have additional features like state and lifecycle methods, while functional components are simpler and are often used with hooks",
+      "details": [
         "A class component is a component that extends the React.Component class and has its own state and lifecycle methods.",
-        "A functional component is a component that is defined as a function and does not have its own state or lifecycle methods.",
+        "A functional component is a component that is descined as a function and does not have its own state or lifecycle methods.",
         "Functional components are simpler and easier to read and write than class components.",
         "Functional components can be used with hooks to add state and lifecycle methods."
       ]
     },
     {
-      "question": "When to use a Class Component over a Function Component?",
-      "Def": "After the addition of Hooks, its a choice to use funcational components but if you worry about Error Boundaries most, so class components is best choice ",
-      "answer": []
+      "title": "When to use a Class Component over a Function Component?",
+      "desc": "After the addition of Hooks, its a choice to use funcational components but if you worry about Error Boundaries most, so class components is best choice ",
+      "details": []
     },
     {
-      "question": "higher-order components (HOC)?",
-      "Def": "Higher-order components are functions that take a component and return a new component with additional features or props",
-      "answer": [
+      "title": "higher-order components (HOC)?",
+      "desc": "Higher-order components are functions that take a component and return a new component with additional features or props",
+      "details": [
         "In React, a higher-order component is a function that takes a component as an argument and returns a new component that wraps the original component."
       ]
     },
     {
-      "question": "What is state in a React",
+      "title": "What is state in a React",
       "keywords": ["state"],
-      "Def": "State refers to internal data or properties of specific component that need to be tracked at current status",
-      "answer": []
+      "desc": "State refers to internal data or properties of specific component that need to be tracked at current status",
+      "details": []
     },
     {
-      "question": "What is the difference between state and props in ReactJS?",
-      "Def": "Props are properties passed to a component from its parent, and they are immutable",
-      "answer": [
+      "title": "What is the difference between state and props in ReactJS?",
+      "desc": "Props are properties passed to a component from its parent, and they are immutable",
+      "details": [
         "State is data that is managed and owned by a component and can be changed by the component.",
         "Props are data that are passed to a component from its parent component and cannot be changed by the component.",
         "State is used for data that changes frequently, while props are used for data that is passed down from parent components."
       ]
     },
     {
-      "question": "What are hooks in ReactJS?",
-      "Def": "Hooks are features in ReactJS that allow developers to use state and other React features in functional components.",
+      "title": "What are hooks in ReactJS?",
+      "desc": "Hooks are features in ReactJS that allow developers to use state and other React features in functional components.",
       "keywords": ["hooks", "features"],
-      "answer": [
+      "details": [
         "Hooks are introduced as a new feature in React 16.8",
         "Hooks include useState, useEffect, and useContext.",
         "Hooks make it easier to write and reason about functional components and reduce the need for class components.",
@@ -138,10 +138,10 @@
       ]
     },
     {
-      "question": "Why do we use Hooks?",
+      "title": "Why do we use Hooks?",
       "keywords": ["why hooks"],
-      "Def": "State Management in Functional Components: Before hooks, if you wanted to use state in a component, you had to convert it to a class component. Hooks enable functional components to manage state using the useState hook, which simplifies the code and makes it more readable.",
-      "answer": [
+      "desc": "State Management in Functional Components: Before hooks, if you wanted to use state in a component, you had to convert it to a class component. Hooks enable functional components to manage state using the useState hook, which simplifies the code and makes it more readable.",
+      "details": [
         "React hooks are functions that allow functional components to use state, lifecycle methods, and other React features.",
         "Code Reusability: Hooks allow you to extract and reuse stateful logic from components. Custom hooks enable you to share logic (e.g., data fetching, form handling) across multiple components without duplicating code.",
         "Simplifies Lifecycle Management: Hooks like useEffect allow you to manage side effects, such as data fetching, event listeners, or DOM manipulations, in a more declarative way compared to lifecycle methods in class components. They also help prevent memory leaks.",
@@ -151,9 +151,9 @@
       ]
     },
     {
-      "question": "What are advantaes of react hooks?",
-      "Def": "",
-      "answer": [
+      "title": "What are advantaes of react hooks?",
+      "desc": "",
+      "details": [
         "Hot reloading possible",
         "no need to use of 'this' keyword",
         "unidirectional data flow makes easy",
@@ -164,9 +164,9 @@
       ]
     },
     {
-      "question": "What is the component lifecycle in ReactJS?",
-      "Def": "phases",
-      "answer": [
+      "title": "What is the component lifecycle in ReactJS?",
+      "desc": "phases",
+      "details": [
         "The component lifecycle in ReactJS includes three phases: mounting, updating, and unmounting.",
         "Mounting is the phase where the component is created and added to the DOM.",
         "Updating is the phase where the component is updated with new data.",
@@ -174,31 +174,31 @@
       ]
     },
     {
-      "question": "Explain the useEffect hook?",
-      "Def": "The useEffect hook in React is used for side effects in functional components, such as data fetching, subscriptions, or manually changing the DOM"
+      "title": "Explain the useEffect hook?",
+      "desc": "The useEffect hook in React is used for side effects in functional components, such as data fetching, subscriptions, or manually changing the DOM"
     },
     {
-      "question": "What are keys in ReactJS?",
-      "Def": "identifiers",
-      "answer": [
+      "title": "What are keys in ReactJS?",
+      "desc": "identifiers",
+      "details": [
         "Keys are identifiers to help which items are changed, added, or removed.",
         "Keys help ReactJS to efficiently update the list when the data changes.",
         "Keys should be unique for each item in the list and should not change between updates."
       ]
     },
     {
-      "question": "What is context in ReactJS?",
-      "Def": "feature",
-      "answer": [
+      "title": "What is context in ReactJS?",
+      "desc": "feature",
+      "details": [
         "Context is a feature in ReactJS that allows developers to pass data down the component tree without having to pass props through every level.",
         "Context is useful for sharing global data or settings between components.",
         "Context can be used with the useContext hook to consume the data in functional components."
       ]
     },
     {
-      "question": "What is the difference between createElement and cloneElement in ReactJS?",
-      "Def": "methods",
-      "answer": [
+      "title": "What is the difference between createElement and cloneElement in ReactJS?",
+      "desc": "methods",
+      "details": [
         "createElement is a method in React that creates a new React element from the given parameters.",
         "cloneElement is a method in React that creates a new React element by cloning an existing one and merging the props.",
         "createElement is used to create new elements, while cloneElement is used to create new elements based on existing ones.",
@@ -206,86 +206,86 @@
       ]
     },
     {
-      "question": "What is the use of refs?",
-      "Def": "The ref is used to return a reference to the element when direct acess to the dom element",
-      "answer": []
+      "title": "What is the use of refs?",
+      "desc": "The ref is used to return a reference to the element when direct acess to the dom element",
+      "details": []
     },
     {
-      "question": "What is the difference between refs and state in ReactJS?",
-      "Def": "refs, state",
-      "answer": [
+      "title": "What is the difference between refs and state in ReactJS?",
+      "desc": "refs, state",
+      "details": [
         "Refs are references to React elements that allow developers to access the underlying DOM nodes or React instances.",
         "State is data that is managed and owned by a component and can be changed by the component.",
         "Refs are used to access the DOM or component instances, while state is used to manage the component data."
       ]
     },
     {
-      "question": "What is the difference between shouldComponentUpdate and componentShouldUpdate in ReactJS?",
-      "Def": "methods",
-      "answer": [
+      "title": "What is the difference between shouldComponentUpdate and componentShouldUpdate in ReactJS?",
+      "desc": "methods",
+      "details": [
         "shouldComponentUpdate is a method in React.Component that allows developers to optimize the component rendering by preventing unnecessary updates.",
         "componentShouldUpdate is a method in React.PureComponent that automatically checks if the component needs to be updated based on the props and state.",
         "componentShouldUpdate is a simpler and safer alternative to shouldComponentUpdate."
       ]
     },
     {
-      "question": "What is the difference between the constructor and componentDidMount methods in a class component in ReactJS?",
-      "Def": "constructor, componentDidMount",
-      "answer": [
+      "title": "What is the difference between the constructor and componentDidMount methods in a class component in ReactJS?",
+      "desc": "constructor, componentDidMount",
+      "details": [
         "The constructor method is called when a class component is created and is used to initialize the state and bind the methods.",
         "The componentDidMount method is called after the component is mounted to the DOM and is used to perform any necessary setup or data fetching.",
         "The constructor method is called only once, while the componentDidMount method is called every time the component is mounted."
       ]
     },
     {
-      "question": "What is the difference between the componentDidMount and componentDidUpdate methods in a class component in ReactJS?",
-      "Def": "componentDidMount, componentDidUpdate",
-      "answer": [
+      "title": "What is the difference between the componentDidMount and componentDidUpdate methods in a class component in ReactJS?",
+      "desc": "componentDidMount, componentDidUpdate",
+      "details": [
         "The componentDidMount method is called after the component is mounted to the DOM and is used to perform any necessary setup or data fetching.",
         "The componentDidUpdate method is called after the component is updated with new data and is used to perform any necessary updates or side effects.",
         "The componentDidMount method is called only once, while the componentDidUpdate method is called every time the component is updated."
       ]
     },
     {
-      "question": "What is the difference between the componentWillUnmount and componentDidUnmount methods in a class component in ReactJS?",
-      "Def": "componentWillUnmount, componentDidUnmount",
-      "answer": [
+      "title": "What is the difference between the componentWillUnmount and componentDidUnmount methods in a class component in ReactJS?",
+      "desc": "componentWillUnmount, componentDidUnmount",
+      "details": [
         "The componentWillUnmount method is called before the component is unmounted from the DOM and is used to perform any necessary cleanup or teardown.",
         "The componentDidUnmount method is not a real method and is used only for illustration purposes.",
         "The componentWillUnmount method is the last method called before the component is unmounted, while the componentDidUnmount method is not called at all."
       ]
     },
     {
-      "question": "What is the difference between the shouldComponentUpdate and componentShouldUpdate methods in a class component in ReactJS?",
-      "Def": "shouldComponentUpdate, componentShouldUpdate",
-      "answer": [
+      "title": "What is the difference between the shouldComponentUpdate and componentShouldUpdate methods in a class component in ReactJS?",
+      "desc": "shouldComponentUpdate, componentShouldUpdate",
+      "details": [
         "The shouldComponentUpdate method is a method in React.Component that allows developers to optimize the component rendering by preventing unnecessary updates.",
         "The componentShouldUpdate method is a method in React.PureComponent that automatically checks if the component needs to be updated based on the props and state.",
         "The componentShouldUpdate method is a simpler and safer alternative to shouldComponentUpdate."
       ]
     },
     {
-      "question": "What is Redux in ReactJS?",
-      "Def": "Redux is a state management library for JavaScript applications",
-      "answer": [
+      "title": "What is Redux in ReactJS?",
+      "desc": "Redux is a state management library for JavaScript applications",
+      "details": [
         "Redux is a predictable state container for JavaScript applications.",
         "Redux can be used with ReactJS to manage the application state in a centralized and predictable way.",
         "Redux follows a unidirectional data flow pattern and uses actions and reducers to update the state."
       ]
     },
     {
-      "question": "What is an action in Redux?",
-      "Def": "event",
-      "answer": [
+      "title": "What is an action in Redux?",
+      "desc": "event",
+      "details": [
         "An action in Redux is an event that represents a change in the application state.",
         "Actions are plain JavaScript objects that have a type property and a payload property.",
         "Actions are dispatched to the Redux store to update the state."
       ]
     },
     {
-      "question": "What is a reducer in Redux?",
-      "Def": "function",
-      "answer": [
+      "title": "What is a reducer in Redux?",
+      "desc": "function",
+      "details": [
         "A reducer in Redux is a function that updates the application state based on the dispatched action.",
         "Reducers take the current state and the action as arguments and return a new state.",
         "Reducers should be pure functions and should not modify the input arguments."
@@ -293,35 +293,35 @@
     },
 
     {
-      "question": "How to use styles in React?",
-      "Def": "The style attribute accepts a JavaScript object with camelCased properties rather than a CSS string.",
-      "answer": []
+      "title": "How to use styles in React?",
+      "desc": "The style attribute accepts a JavaScript object with camelCased properties rather than a CSS string.",
+      "details": []
     },
     {
-      "question": "How events are different in React?",
-      "Def": "",
-      "answer": [
+      "title": "How events are different in React?",
+      "desc": "",
+      "details": [
         "React event handlers are named using camelCase, rather than lowercase.",
         "With JSX you pass a function as the event handler, rather than a string."
       ]
     },
     {
-      "question": "What is the impact of indexes as keys?",
-      "Def": "Keys should be stable, predictable, and unique so that React can keep track of elements.",
-      "answer": [
+      "title": "What is the impact of indexes as keys?",
+      "desc": "Keys should be stable, predictable, and unique so that React can keep track of elements.",
+      "details": [
         "Using index can limits to the optimization in react",
         "If you use element data for unique key, assuming todo.id is unique to this list and stable, React would be able to reorder elements without needing to reevaluate them as much."
       ]
     },
     {
-      "question": "What is CRA and its benefits?",
-      "Def": "The create-react-app CLI tool allows you to quickly create & run React applications with no configuration step.",
-      "answer": []
+      "title": "What is CRA and its benefits?",
+      "desc": "The create-react-app CLI tool allows you to quickly create & run React applications with no configuration step.",
+      "details": []
     },
     {
-      "question": "What is the lifecycle methods order in mounting?",
-      "Def": "",
-      "answer": [
+      "title": "What is the lifecycle methods order in mounting?",
+      "desc": "",
+      "details": [
         "constructor()",
         "static getDerivedStateFromProps()",
         "render()",
@@ -329,41 +329,41 @@
       ]
     },
     {
-      "question": "How to use React label element?",
-      "Def": "If you try to render a <label> element bound to a text input using the standard for attribute, then it produces HTML missing that attribute and prints a warning to the console.",
-      "answer": [
+      "title": "How to use React label element?",
+      "desc": "If you try to render a <label> element bound to a text input using the standard for attribute, then it produces HTML missing that attribute and prints a warning to the console.",
+      "details": [
         "Since for is a reserved keyword in JavaScript, use htmlFor instead."
       ]
     },
     {
-      "question": "What is the difference between setState() and replaceState() methods?",
-      "Def": "",
-      "answer": [
+      "title": "What is the difference between setState() and replaceState() methods?",
+      "desc": "",
+      "details": [
         "When you use setState() the current and previous states are merged. ",
         " replaceState() throws out the current state, and replaces it with only what you provide. ",
         "Usually setState() is used unless you really need to remove all previous keys for some reason. You can also set state to false/null in setState() instead of using replaceState()."
       ]
     },
     {
-      "question": "What is useReducer Hook?",
-      "Def": "The useReducer hook is used for managing complex state logic in React applications. It is an alternative to useState when state transitions are more complex",
-      "answer": [
+      "title": "What is useReducer Hook?",
+      "desc": "The useReducer hook is used for managing complex state logic in React applications. It is an alternative to useState when state transitions are more complex",
+      "details": [
         "The useReducer Hook accepts two arguments.",
         "The useReducer Hook returns the current stateand a dispatchmethod."
       ]
     },
     {
-      "question": "What is React lazy function?",
-      "Def": "The React.lazy function lets you render a dynamic import as a regular component. ",
-      "answer": [
+      "title": "What is React lazy function?",
+      "desc": "The React.lazy function lets you render a dynamic import as a regular component. ",
+      "details": [
         "t will automatically load the bundle containing the OtherComponent when the component gets rendered"
       ]
     },
     {
-      "question": "What is NextJS and major features of it?",
-      "Def": "Next.js is a popular and lightweight framework for static and server-rendered applications built with React. It also provides styling and routing solutions.",
-      "answer": [
-        "Server-rendered by default",
+      "title": "What is NextJS and major features of it?",
+      "desc": "Next.js is a popular and lightweight framework for static and server-rendered applications built with React. It also provides styling and routing solutions.",
+      "details": [
+        "Server-rendered by descault",
         "Automatic code splitting for faster page loads",
         "Simple client-side routing (app directory router)",
         "Webpack-based dev environment which supports (HMR)",
@@ -372,29 +372,29 @@
       ]
     },
     {
-      "question": "What are the benefits of using typescript with reactjs?",
-      "Def": "",
-      "answer": [
+      "title": "What are the benefits of using typescript with reactjs?",
+      "desc": "",
+      "details": [
         "It is possible to use latest JavaScript features",
-        "Use of interfaces for complex type definitions",
+        "Use of interfaces for complex type descinitions",
         "IDEs such as VS Code was made for TypeScript",
         "Avoid bugs with the ease of readability and Validation"
       ]
     },
     {
-      "question": "What is prop drilling?",
-      "Def": "Prop Drilling is the process by which you pass data from one component of the React Component tree to another by going through other components that do not need the data but only help in passing it around.",
-      "answer": []
+      "title": "What is prop drilling?",
+      "desc": "Prop Drilling is the process by which you pass data from one component of the React Component tree to another by going through other components that do not need the data but only help in passing it around.",
+      "details": []
     },
     {
-      "question": "What are the differences between useEffect and useLayoutEffect hooks?",
-      "Def": "",
-      "answer": []
+      "title": "What are the differences between useEffect and useLayoutEffect hooks?",
+      "desc": "",
+      "details": []
     },
     {
-      "question": "What is the benefit of strict mode?",
-      "Def": "",
-      "answer": [
+      "title": "What is the benefit of strict mode?",
+      "desc": "",
+      "details": [
         "Whenever the component",
         "Identifying components with unsafe lifecycle methods.",
         "Warning about legacy string ref API usage.",
@@ -404,37 +404,37 @@
       ]
     },
     {
-      "question": "Why does strict mode render twice in React?",
-      "Def": "Dueto strict Mode of react, so it renders twice to avoid errors",
-      "answer": []
+      "title": "Why does strict mode render twice in React?",
+      "desc": "Dueto strict Mode of react, so it renders twice to avoid errors",
+      "details": []
     },
     {
-      "question": "Explain the concept of context in React?",
-      "Def": "Context provides a way to pass data through the component tree without having to pass props manually at every level."
+      "title": "Explain the concept of context in React?",
+      "desc": "Context provides a way to pass data through the component tree without having to pass props manually at every level."
     },
     {
-      "question": "React handle prop drilling, and how can it be avoided?",
-      "Def": "Prop drilling occurs when props are passed down through multiple levels of components. "
+      "title": "React handle prop drilling, and how can it be avoided?",
+      "desc": "Prop drilling occurs when props are passed down through multiple levels of components. "
     },
     {
-      "question": "forwardRef function in React?",
-      "Def": "Ref's can not be passed directly to child components, so wenned to wrap them inside farwardref so that child component can have acesss to that ref"
+      "title": "forwardRef function in React?",
+      "desc": "Ref's can not be passed directly to child components, so wenned to wrap them inside farwardref so that child component can have acesss to that ref"
     },
     {
-      "question": "Use of Memo?",
-      "Def": "memo is a higher-order component that memoizes the rendering of a functional component, preventing unnecessary re-renders if the props have not changed."
+      "title": "Use of Memo?",
+      "desc": "memo is a higher-order component that memoizes the rendering of a functional component, preventing unnecessary re-renders if the props have not changed."
     },
     {
-      "question": "useCallback hook?",
-      "Def": "useCallback is used to memoize callback functions, preventing them from being recreated on every render."
+      "title": "useCallback hook?",
+      "desc": "useCallback is used to memoize callback functions, preventing them from being recreated on every render."
     },
     {
-      "question": "What are React portals?",
-      "Def": "React portals provide a way to render children into a DOM node that exists outside the parent component's hierarchy"
+      "title": "What are React portals?",
+      "desc": "React portals provide a way to render children into a DOM node that exists outside the parent component's hierarchy"
     },
     {
-      "question": "suspense in React.",
-      "Def": "Suspense is a feature in React that allows components to `wait` for something before rendering, such as data fetching or code splitting."
+      "title": "suspense in React.",
+      "desc": "Suspense is a feature in React that allows components to `wait` for something before rendering, such as data fetching or code splitting."
     }
   ]
 }
