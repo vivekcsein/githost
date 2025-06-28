@@ -1,5 +1,5 @@
 {
-  "version": "1.3",
+  "version": "1.1",
   "lastUpdated": "28-06-2025",
   "productsList": [
     {
@@ -14,7 +14,7 @@
       "totalRating": 5,
       "totalReview": 50,
       "availableQuantity": 0,
-      "color": "red",
+      "color": "gray",
       "images": [
         {
           "uid": 1,
@@ -41,7 +41,7 @@
       "totalRating": 5,
       "totalReview": 50,
       "availableQuantity": 20,
-      "color": "cyan",
+      "color": "white",
       "images": [
         {
           "uid": 1,
@@ -68,7 +68,7 @@
       "totalRating": 5,
       "totalReview": 50,
       "availableQuantity": 16,
-      "color": "blue",
+      "color": "pink",
       "images": [
         {
           "uid": 1,
@@ -95,7 +95,7 @@
       "totalRating": 5,
       "totalReview": 50,
       "availableQuantity": 14,
-      "color": "green",
+      "color": "gray",
       "images": [
         {
           "uid": 1,
@@ -120,7 +120,7 @@
       "currentRating": 4.3,
       "totalRating": 5,
       "totalReview": 50,
-      "color": "white",
+      "color": "cyan",
       "images": [
         {
           "uid": 1,
@@ -174,7 +174,7 @@
       "totalRating": 5,
       "totalReview": 50,
       "availableQuantity": 8,
-      "color": "blue",
+      "color": "gray",
       "images": [
         {
           "uid": 1,
@@ -227,7 +227,7 @@
       "totalRating": 5,
       "totalReview": 50,
       "availableQuantity": 10,
-      "color": "purple",
+      "color": "gray",
       "images": [
         {
           "uid": 1,
@@ -279,7 +279,7 @@
       "currentRating": 4.6,
       "totalRating": 5,
       "totalReview": 50,
-      "color": "pink",
+      "color": "white",
       "images": [
         {
           "uid": 1,
@@ -305,7 +305,7 @@
       "currentRating": 4.5,
       "totalRating": 5,
       "totalReview": 50,
-      "color": "yellow",
+      "color": "gray",
       "images": [
         {
           "uid": 1,
@@ -331,7 +331,7 @@
       "currentRating": 4.8,
       "totalRating": 5,
       "totalReview": 50,
-      "color": "red",
+      "color": "gray",
       "images": [
         {
           "uid": 1,
@@ -357,7 +357,7 @@
       "currentRating": 4.6,
       "totalRating": 5,
       "totalReview": 50,
-      "color": "blue",
+      "color": "pink",
       "images": [
         {
           "uid": 1,
@@ -383,7 +383,7 @@
       "currentRating": 4.7,
       "totalRating": 5,
       "totalReview": 50,
-      "color": "red",
+      "color": "white",
       "images": [
         {
           "uid": 1,
@@ -409,7 +409,7 @@
       "totalRating": 5,
       "totalReview": 50,
       "availableQuantity": 12,
-      "color": "red",
+      "color": "gray",
       "images": [
         {
           "uid": 1,
@@ -430,7 +430,7 @@
       "totalRating": 5,
       "totalReview": 100,
       "availableQuantity": 12,
-      "color": "red",
+      "color": "white",
       "images": [
         {
           "uid": 1,
@@ -456,7 +456,7 @@
       "totalRating": 5,
       "totalReview": 120,
       "availableQuantity": 5,
-      "color": "red",
+      "color": "gray",
       "images": [
         {
           "uid": 1,
@@ -477,7 +477,7 @@
       "totalRating": 5,
       "totalReview": 27,
       "availableQuantity": 5,
-      "color": "red",
+      "color": "gray",
       "images": [
         {
           "uid": 1,
@@ -498,7 +498,7 @@
       "totalRating": 5,
       "totalReview": 100,
       "availableQuantity": 50,
-      "color": "red",
+      "color": "white",
       "images": [
         {
           "uid": 1,
