@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "1.3",
   "lastUpdated": "28-06-2025",
   "productsList": [
     {
@@ -99,7 +99,7 @@
       "images": [
         {
           "uid": 1,
-          "src": "images/productImagesFromAI/Black-Leggings01.jpg",
+          "src": "/images/productImagesFromAI/Black-Leggings01.jpg",
           "alt": "Black Leggings"
         }
       ],
@@ -413,14 +413,10 @@
       "images": [
         {
           "uid": 1,
-          "src": "images/productImagesFromAI/Adjustable-Dumbbell-Set01.jpg",
+          "src": "/images/productImagesFromAI/Adjustable-Dumbbell-Set01.jpg",
           "alt": "Adjustable Dumbbell Set"
         }
-      ],
-      "details": {
-        "material": ["Steel with Rubber Grip"],
-        "weights": ["5lb", "10lb", "15lb", "20lb"]
-      }
+      ]
     },
     {
       "uid": 17,
@@ -438,13 +434,14 @@
       "images": [
         {
           "uid": 1,
-          "src": "images/productImagesFromAI/AI-Programming-Guide01.jpg",
+          "src": "/images/productImagesFromAI/AI-Programming-Guide01.jpg",
           "alt": "AI Programming Guide"
         }
       ],
       "details": {
-        "material": ["Steel with Rubber Grip"],
-        "weights": ["5lb", "10lb", "15lb", "20lb"]
+        "formats": ["Paperback", "Hardcover", "Kindle"],
+        "pages": 40,
+        "author": ["John Doe"]
       }
     },
     {
@@ -463,14 +460,10 @@
       "images": [
         {
           "uid": 1,
-          "src": "images/productImagesFromAI/Wireless-Gaming-Headset01.png",
+          "src": "/images/productImagesFromAI/Wireless-Gaming-Headset01.jpg",
           "alt": "Wireless Gaming Headset"
         }
-      ],
-      "details": {
-        "material": ["Steel with Rubber Grip"],
-        "weights": ["5lb", "10lb", "15lb", "20lb"]
-      }
+      ]
     },
     {
       "uid": 19,
@@ -488,19 +481,15 @@
       "images": [
         {
           "uid": 1,
-          "src": "images/productImagesFromAI/Smart-Watch-Pro01.jpg",
+          "src": "/images/productImagesFromAI/Smart-Watch-Pro01.jpg",
           "alt": "Smart Watch Pro"
         }
-      ],
-      "details": {
-        "material": ["Steel with Rubber Grip"],
-        "weights": ["5lb", "10lb", "15lb", "20lb"]
-      }
+      ]
     },
     {
       "uid": 20,
       "Category": ["books"],
-      "isTrending": true,
+      "isTrending": false,
       "productName": "Web Development",
       "description": "Learn the building blocks of web pages, creating structure and style. Add dynamic behavior and interactivity to your websites. Build real-world websites and applications with step-by-step guidance. Explore responsive design techniques and best practices.",
       "currentPrice": 20,
@@ -513,13 +502,14 @@
       "images": [
         {
           "uid": 1,
-          "src": "images/productImagesFromAI/Web-Development01.jpg",
+          "src": "/images/productImagesFromAI/Web-Development01.jpg",
           "alt": "Web Development"
         }
       ],
       "details": {
-        "material": ["Steel with Rubber Grip"],
-        "weights": ["5lb", "10lb", "15lb", "20lb"]
+        "formats": ["Paperback", "Hardcover", "Kindle"],
+        "pages": 200,
+        "author": ["John Doe"]
       }
     }
   ]
