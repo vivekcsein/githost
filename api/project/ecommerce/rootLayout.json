@@ -26,7 +26,12 @@
               "label": "Clothing",
               "icon": "Shirt"
             },
-            { "id": 3, "href": "/", "label": "Books", "icon": "BookOpen" }
+            {
+              "id": 3,
+              "href": "/products/books",
+              "label": "Books",
+              "icon": "BookOpen"
+            }
           ]
         },
         {
